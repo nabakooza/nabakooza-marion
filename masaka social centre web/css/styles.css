@@ -1,0 +1,54 @@
+* {
+    margin: 2;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: new times roman, sans-serif;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('image/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    color: #ffffff; 
+}
+
+header {
+    background-color: black;
+    color: red;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    color: red;
+    margin: 0 10px;
+    text-decoration: none;
+    text-size: 10;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.intro, .programs, .about {
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
